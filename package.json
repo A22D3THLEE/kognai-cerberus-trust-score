@@ -1,0 +1,17 @@
+{
+  "name": "kognai-cerberus-trust-score",
+  "version": "1.0.0",
+  "description": "Cerberus chamber 2: pure trust score from an agent record with an optional outside second opinion.",
+  "type": "module",
+  "main": "src/scoreAgent.js",
+  "exports": {
+    ".": "./src/scoreAgent.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
